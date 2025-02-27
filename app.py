@@ -115,7 +115,7 @@ def dashboard():
     with user_app.app_context():
         user_data = UserData.query.all()
 
-    return render_template('dashboard.html', data=user_data)
+    return render_template('NiceAdmin/index.html', data=user_data)
 
 @app.route('/logout')
 @login_required
