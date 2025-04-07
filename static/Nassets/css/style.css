@@ -12,7 +12,23 @@
 :root {
   scroll-behavior: smooth;
 }
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: none;
+}
 
+.btn-map {
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+.btn-map:hover {
+  background-color: #198754;
+  color: white;
+}
 body {
   font-family: "Open Sans", sans-serif;
   background: #f6f9ff;
