@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="static/Nassets/img/favicon.png" rel="icon">
+  <!-- <link href="static/Nassets/img/favicon.png" rel="icon"> -->
   <link href="static/Nassets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -316,10 +316,12 @@
 
               </div>
             </div><!-- End Revenue Card -->
-
+          </div>
+        </div></div>
+        </div>
             <div class="row">
               <!-- Upload Card -->
-              <div class="col-lg-6">
+              <div class="col-12">
                 <div class="card shadow-sm">
                   <div class="card-body">
                     <h5 class="card-title text-primary"><i class="bi bi-upload"></i> Upload Data</h5>
@@ -339,7 +341,6 @@
                   <h5 class="card-title">
                     <i class="bi bi-folder2 text-success"></i> Your Uploaded Files
                   </h5>
-              
                   <div class="table-responsive">
                     <table class="table table-hover align-middle">
                       <thead class="table-light">
@@ -377,21 +378,24 @@
                               <h6>Map Variables for: {{ file.filename }}</h6>
                               <form id="Preprocess-form-{{ file.filename }}">
                                 <div class="form-group">
-                                  <label>Select <b>Category</b> Column:</label>
+                                  <label>Select <b>Category / Type</b> Column:</label>
                                   <select class="form-control x-variable" required>
                                   </select>
                                 </div>  
                                 <div class="form-group">
-                                  <label>Select <b>Profit</b> Column:</label>
+                                  <label>Select <b>Profit/Quantity</b> Column:</label>
                                   <select class="form-control y-variable" required>
                                   </select>
+                                  <small class="text-muted">Select Profit:To forecast the profit</small><br>
+                                    <small class="text-muted">Select Quantity:To forecast the inventory requirement</small>
+                                  
                                 </div>
                                 <div class="form-group mt-2">
                                   <label>Select <b>Order Date</b>Column</label>
                                   <select class="form-control z-variable"></select>
                                 </div>
                                 <div class="mt-3">
-                                  <button type="button" class="btn btn-success" onclick="Preprocess('{{ file.filename }}')">Map Data</button>
+                                  <button type="button" class="btn btn-success" onclick="Preprocess('{{ file.filename }}')">Map Columns</button>
                                 </div>
                               </form>
                             </div>
@@ -403,7 +407,8 @@
                   </div>
                 </div>
               </div>
-                
+            </div>
+          
                 <div class="card mt-4 shadow-sm">
                   <div class="card-body">
                     <h5 class="card-title">
@@ -466,8 +471,10 @@
                     </div>
                   </div>
                 </div>
-
-                <div class="card mt-3 shadow-sm">
+              </div>
+            
+                <div class="col-12">
+                  <div class="card recent-sales overflow-auto">
                   <div class="card-body">
                     <h5 class="card-title">
                       <i class="bi bi-folder2 text-success"></i> Your Forecasted Files
@@ -505,9 +512,9 @@
                       <p class="text-muted">No forecasted files found.</p>
                     {% endif %}
                   </div>
-                  <div id="chartContainer"></div>
+                  <div id="chartContainer" class="p-3"></div>
                 </div>
-                
+              </div>
                 
                 <script>
                   // Show the form to select X, Y, Z columns and fetch attributes from the file
@@ -639,44 +646,57 @@
 
                   async function fetchChart(form) {
                     event.preventDefault();
-                
+                  
                     const formData = new FormData(form);
-                
+                  
                     const response = await fetch("/forecast_visualize", {
                       method: "POST",
                       body: formData,
                     });
-                
+                  
                     const result = await response.json();
-                
+                  
                     if (result.error) {
                       alert(result.error);
                       return;
                     }
-                
+                  
                     const container = document.getElementById("chartContainer");
                     container.innerHTML = `
                       <div class="card mt-4 shadow" id="forecast-chart-card">
                         <div class="card-body">
-                          <h5 class="card-title text-primary">
-                            <i class="bi bi-bar-chart-line"></i> Forecast Chart for <code>${result.filename}</code>
+                          <h5 class="card-title text-primary mb-4">
+                            <i class="bi bi-bar-chart-line"></i> Forecast Charts for 
+                            <code class="text-danger">${result.filename}</code>
                           </h5>
-                          <canvas id="forecastChart"></canvas>
+                          <div class="mb-5 text-center">
+                            <h6 class="fw-bold">Line Chart</h6>
+                            <canvas id="lineChart" height="150"></canvas>
+                          </div>
+
+                          <div class="mb-5 text-center">
+                            <h6 class="fw-bold">Bar Chart</h6>
+                            <canvas id="barChart" height="150"></canvas>
+                          </div>
+
+                          <div class="mb-4 text-center">
+                            <h6 class="fw-bold">Stepped Line Chart</h6>
+                            <canvas id="steppedChart" height="150"></canvas>
+                          </div>
                         </div>
                       </div>
                     `;
-                
-                    const ctx = document.getElementById("forecastChart").getContext("2d");
-                
+                  
                     const labels = result.data.map(d => d.date);
                     const values = result.data.map(d => d.value);
-                
-                    new Chart(ctx, {
+                  
+                    // Line Chart
+                    new Chart(document.getElementById("lineChart").getContext("2d"), {
                       type: 'line',
                       data: {
                         labels: labels,
                         datasets: [{
-                          label: 'Forecast',
+                          label: 'Line Forecast',
                           data: values,
                           borderColor: 'rgba(75, 192, 192, 1)',
                           backgroundColor: 'rgba(75, 192, 192, 0.2)',
@@ -687,16 +707,63 @@
                       },
                       options: {
                         responsive: true,
+                        plugins: { title: { display: true, text: "Line Chart" }},
                         scales: {
                           x: { title: { display: true, text: "Date" }},
-                          y: { title: { display: true, text: "Forecast Value" }}
+                          y: { title: { display: true, text: "Value" }}
                         }
                       }
                     });
-                
+                  
+                    // Bar Chart
+                    new Chart(document.getElementById("barChart").getContext("2d"), {
+                      type: 'bar',
+                      data: {
+                        labels: labels,
+                        datasets: [{
+                          label: 'Bar Forecast',
+                          data: values,
+                          backgroundColor: 'rgba(153, 102, 255, 0.6)',
+                          borderColor: 'rgba(153, 102, 255, 1)',
+                          borderWidth: 1
+                        }]
+                      },
+                      options: {
+                        responsive: true,
+                        plugins: { title: { display: true, text: "Bar Chart" }},
+                        scales: {
+                          x: { title: { display: true, text: "Date" }},
+                          y: { title: { display: true, text: "Value" }}
+                        }
+                      }
+                    });
+                  
+                    // Stepped Line Chart
+                    new Chart(document.getElementById("steppedChart").getContext("2d"), {
+                      type: 'line',
+                      data: {
+                        labels: labels,
+                        datasets: [{
+                          label: 'Stepped Forecast',
+                          data: values,
+                          borderColor: 'rgba(255, 159, 64, 1)',
+                          backgroundColor: 'rgba(255, 159, 64, 0.2)',
+                          borderWidth: 2,
+                          fill: true,
+                          stepped: true
+                        }]
+                      },
+                      options: {
+                        responsive: true,
+                        plugins: { title: { display: true, text: "Stepped Line Chart" }},
+                        scales: {
+                          x: { title: { display: true, text: "Date" }},
+                          y: { title: { display: true, text: "Value" }}
+                        }
+                      }
+                    });
                     return false;
                   }
-
                 document.addEventListener("DOMContentLoaded", () => {
                   new ApexCharts(document.querySelector("#reportsChart"), {
                     series: [{
@@ -750,7 +817,7 @@
                 </script>
                 </div>
               </div>
-            </div>
+            
 
 
             <div class="col-12">
