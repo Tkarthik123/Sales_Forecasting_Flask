@@ -6,3 +6,4 @@ pandas
 statsmodels
 prophet
 plotly
+pmdarima

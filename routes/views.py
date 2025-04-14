@@ -120,7 +120,7 @@ def upload_file():
 @login_required
 def download_file(filename):
     filename = secure_filename(filename)
-    user_folder = os.path.join(app.config['UPLOAD_FOLDER'], current_user.username)
+    user_folder = os.path.join('forecasted_uploads', current_user.username)
     file_path = os.path.join(user_folder, filename)
 
     if os.path.exists(file_path):
@@ -232,18 +232,20 @@ def forecast():
     filename = data['filename']
     category = data['category']
     model = data['model']
-    
+    forecast_period = int(data.get('forecast_period', 30)) 
+    order_cost = int(data.get('order_cost', 60)) 
+    holding_cost = int(data.get('holding_cost', 20) )
     filepath = os.path.join(PROCESSED_FOLDER, current_user.username, filename)
     
     if model == 'ARIMA':
         print("Entered")
-        forecast_data = forecast_with_arima(filepath, category, current_user.username)
+        forecast_data = forecast_with_arima(filepath, category, current_user.username,forecast_period)
     elif model == 'Prophet':
-        forecast_data = forecast_with_prophet(filepath, category, current_user.username)
+        forecast_data = forecast_with_prophet(filepath, category, current_user.username,forecast_period,order_cost,holding_cost)
     else:
         return jsonify({'error': 'Invalid model selected'}), 400
 
-    return jsonify({'forecast': forecast_data})
+    return jsonify({'forecast': forecast_data, 'eoq': forecast_data.get('eoq')})
 
 @app.route('/forecast_visualize', methods=['POST'])
 @login_required
