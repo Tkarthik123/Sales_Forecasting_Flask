@@ -1,0 +1,209 @@
+Row ID,Order ID,Order Date,Customer ID,Region,Product ID,Category,Product Name,Sales,Quantity,Discount,Profit
+1,CA-2015-149587,31-01-2024,KB-16315,Central,OFF-PA-10003177,Office Supplies,Xerox 1999,12.96,2,0,6.2208
+2,CA-2015-149587,01-02-2024,KB-16315,Central,FUR-FU-10003799,Furniture,"Seth Thomas 13 1/2"" Wall Clock",53.34,3,0,16.5354
+3,CA-2015-149587,02-02-2024,KB-16315,Central,OFF-BI-10002852,Office Supplies,Ibico Standard Transparent Covers,32.96,2,0,16.1504
+4,US-2017-109484,03-02-2024,RB-19705,West,OFF-BI-10004738,Office Supplies,Flexible Leather- Look Classic Collection Ring Binder,5.682,1,0.7,-3.788
+5,CA-2017-161018,04-02-2024,PN-18775,East,FUR-FU-10000629,Furniture,9-3/4 Diameter Round Wall Clock,96.53,7,0,40.5426
+6,CA-2017-157833,05-02-2024,KD-16345,West,OFF-BI-10001721,Office Supplies,Trimflex Flexible Post Binders,51.312,3,0.2,17.9592
+7,CA-2016-149223,06-02-2024,ER-13855,Central,OFF-AP-10000358,Office Supplies,Fellowes Basic Home/Office Series Surge Protectors,77.88,6,0,22.5852
+8,CA-2016-158568,07-02-2024,RB-19465,Central,OFF-PA-10003256,Office Supplies,Avery Personal Creations Heavyweight Cards,64.624,7,0.2,22.6184
+9,CA-2016-158568,08-02-2024,RB-19465,Central,TEC-AC-10001767,Technology,SanDisk Ultra 64 GB MicroSDHC Class 10 Memory Card,95.976,3,0.2,-10.7973
+10,CA-2016-158568,09-02-2024,RB-19465,Central,OFF-BI-10002609,Office Supplies,Avery Hidden Tab Dividers for Binding Systems,1.788,3,0.8,-3.0396
+11,CA-2016-129903,10-02-2024,GZ-14470,Central,OFF-PA-10004040,Office Supplies,Universal Premium White Copier/Laser Paper (20Lb. and 87 Bright),23.92,4,0,11.7208
+12,US-2015-156867,11-02-2024,LC-16870,West,TEC-AC-10001552,Technology,Logitech K350 2.4Ghz Wireless Keyboard,238.896,6,0.2,-26.8758
+13,US-2015-156867,12-02-2024,LC-16870,West,FUR-FU-10004006,Furniture,"Deflect-o DuraMat Lighweight, Studded, Beveled Mat for Low Pile Carpeting",102.36,3,0.2,-3.8385
+14,US-2015-156867,13-02-2024,LC-16870,West,OFF-BI-10002794,Office Supplies,"Avery Trapezoid Ring Binder, 3"" Capacity, Black, 1040 sheets",36.882,3,0.7,-25.8174
+15,CA-2017-119004,14-02-2024,JM-15250,South,TEC-AC-10003499,Technology,Memorex Mini Travel Drive 8 GB USB 2.0 Flash Drive,74.112,8,0.2,17.6016
+16,CA-2017-119004,15-02-2024,JM-15250,South,TEC-PH-10002844,Technology,Speck Products Candyshell Flip Case,27.992,1,0.2,2.0994
+17,CA-2017-119004,16-02-2024,JM-15250,South,OFF-AR-10000390,Office Supplies,Newell Chalk Holder,3.304,1,0.2,1.0738
+18,CA-2015-129476,17-02-2024,PA-19060,Central,TEC-AC-10000844,Technology,Logitech Gaming G510s - Keyboard,339.96,5,0.2,67.992
+19,CA-2017-146780,18-02-2024,CV-12805,East,FUR-FU-10001934,Furniture,Magnifier Swing Arm Lamp,41.96,2,0,10.9096
+20,CA-2016-128867,19-02-2024,CL-12565,Central,OFF-AR-10000380,Office Supplies,"Hunt PowerHouse Electric Pencil Sharpener, Blue",75.96,2,0,22.788
+21,CA-2016-128867,20-02-2024,CL-12565,Central,OFF-BI-10003981,Office Supplies,"Avery Durable Plastic 1"" Binders",27.24,6,0,13.3476
+22,CA-2014-115259,21-02-2024,RC-19960,East,OFF-FA-10000621,Office Supplies,"OIC Colored Binder Clips, Assorted Sizes",40.096,14,0.2,14.5348
+23,CA-2014-115259,22-02-2024,RC-19960,East,OFF-EN-10002600,Office Supplies,"Redi-Strip #10 Envelopes, 4 1/8 x 9 1/2",4.72,2,0.2,1.652
+24,CA-2014-115259,23-02-2024,RC-19960,East,OFF-PA-10004965,Office Supplies,Xerox 1921,23.976,3,0.2,7.4925
+25,CA-2014-115259,24-02-2024,RC-19960,East,OFF-EN-10002504,Office Supplies,"Tyvek  Top-Opening Peel & Seel Envelopes, Plain White",130.464,6,0.2,44.0316
+26,CA-2015-110457,25-02-2024,DK-13090,West,FUR-TA-10001768,Furniture,Hon Racetrack Conference Tables,787.53,3,0,165.3813
+27,US-2015-136476,26-02-2024,GG-14650,South,OFF-BI-10003650,Office Supplies,GBC DocuBind 300 Electric Binding Machine,157.794,1,0.7,-115.7156
+28,CA-2016-103730,27-02-2024,SC-20725,East,FUR-FU-10002157,Furniture,Artistic Insta-Plaque,47.04,3,0,18.3456
+29,CA-2016-103730,28-02-2024,SC-20725,East,OFF-BI-10003910,Office Supplies,DXL Angle-View Binders with Locking Rings by Samsill,30.84,4,0,13.878
+30,CA-2016-103730,29-02-2024,SC-20725,East,OFF-ST-10000777,Office Supplies,"Companion Letter/Legal File, Black",226.56,6,0,63.4368
+31,CA-2016-103730,01-03-2024,SC-20725,East,OFF-EN-10002500,Office Supplies,Globe Weis Peel & Seel First Class Envelopes,115.02,9,0,51.759
+32,CA-2016-103730,02-03-2024,SC-20725,East,TEC-PH-10003875,Technology,KLD Oscar II Style Snap-on Ultra Thin Side Flip Synthetic Leather Cover Case for HTC One HTC M7,68.04,7,0,19.7316
+33,US-2014-152030,03-03-2024,AD-10180,Central,FUR-CH-10004063,Furniture,Global Deluxe High-Back Manager's Chair,600.558,3,0.3,-8.5794
+34,US-2014-134614,04-03-2024,PF-19165,Central,FUR-TA-10004534,Furniture,Bevis 44 x 96 Conference Tables,617.7,6,0.5,-407.682
+35,US-2017-107272,05-03-2024,TS-21610,West,OFF-BI-10003274,Office Supplies,"Avery Durable Slant Ring Binders, No Labels",2.388,2,0.7,-1.8308
+36,US-2017-107272,06-03-2024,TS-21610,West,OFF-ST-10002974,Office Supplies,"Trav-L-File Heavy-Duty Shuttle II, Black",243.992,7,0.2,30.499
+37,US-2016-125969,07-03-2024,LS-16975,West,FUR-CH-10001146,Furniture,"Global Task Chair, Black",81.424,2,0.2,-9.1602
+38,US-2016-125969,08-03-2024,LS-16975,West,FUR-FU-10003773,Furniture,Eldon Cleatmat Plus Chair Mats for High Pile Carpets,238.56,3,0,26.2416
+39,US-2017-164147,09-03-2024,DW-13585,East,TEC-PH-10002293,Technology,Anker 36W 4-Port USB Wall Charger Travel Power Adapter for iPhone 5s 5c 5,59.97,5,0.4,-11.994
+40,US-2017-164147,10-03-2024,DW-13585,East,OFF-PA-10002377,Office Supplies,Xerox 1916,78.304,2,0.2,29.364
+41,US-2017-164147,11-03-2024,DW-13585,East,OFF-FA-10002780,Office Supplies,Staples,21.456,9,0.2,6.9732
+42,CA-2016-145583,12-03-2024,LC-16885,West,OFF-PA-10001804,Office Supplies,Xerox 195,20.04,3,0,9.6192
+43,CA-2016-145583,13-03-2024,LC-16885,West,OFF-PA-10001736,Office Supplies,Xerox 1880,35.44,1,0,16.6568
+44,CA-2016-145583,14-03-2024,LC-16885,West,OFF-AR-10001149,Office Supplies,"Sanford Colorific Colored Pencils, 12/Box",11.52,4,0,3.456
+45,CA-2016-145583,15-03-2024,LC-16885,West,OFF-FA-10002988,Office Supplies,Ideal Clamps,4.02,2,0,1.9698
+46,CA-2016-145583,16-03-2024,LC-16885,West,OFF-BI-10004781,Office Supplies,GBC Wire Binding Strips,76.176,3,0.2,26.6616
+47,CA-2016-145583,17-03-2024,LC-16885,West,OFF-SU-10001218,Office Supplies,Fiskars Softgrip Scissors,65.88,6,0,18.4464
+48,CA-2016-145583,18-03-2024,LC-16885,West,FUR-FU-10001706,Furniture,Longer-Life Soft White Bulbs,43.12,14,0,20.6976
+49,CA-2016-110366,19-03-2024,JD-15895,East,FUR-FU-10004848,Furniture,"Howard Miller 13-3/4"" Diameter Brushed Chrome Round Wall Clock",82.8,2,0.2,10.35
+50,CA-2017-106180,20-03-2024,SH-19975,West,OFF-AR-10000940,Office Supplies,Newell 343,8.82,3,0,2.3814
+51,CA-2017-106180,21-03-2024,SH-19975,West,OFF-EN-10004030,Office Supplies,Convenience Packs of Business Envelopes,10.86,3,0,5.1042
+52,CA-2017-106180,22-03-2024,SH-19975,West,OFF-PA-10004327,Office Supplies,Xerox 1911,143.7,3,0,68.976
+53,CA-2017-155376,23-03-2024,SG-20080,Central,OFF-AP-10001058,Office Supplies,Sanyo 2.5 Cubic Foot Mid-Size Office Refrigerators,839.43,3,0,218.2518
+54,CA-2015-110744,24-03-2024,HA-14920,West,OFF-ST-10003656,Office Supplies,Safco Industrial Wire Shelving,671.93,7,0,20.1579
+55,CA-2014-110072,25-03-2024,MG-17680,East,FUR-FU-10000521,Furniture,"Seth Thomas 14"" Putty-Colored Wall Clock",93.888,4,0.2,12.9096
+56,CA-2016-114489,26-03-2024,JE-16165,Central,TEC-PH-10000215,Technology,Plantronics Cordless Phone Headset with In-line Volume - M214C,384.45,11,0,103.8015
+57,CA-2016-114489,27-03-2024,JE-16165,Central,TEC-PH-10001448,Technology,Anker Astro 15000mAh USB Portable Charger,149.97,3,0,5.9988
+58,CA-2016-114489,28-03-2024,JE-16165,Central,FUR-CH-10000454,Furniture,"Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back",1951.84,8,0,585.552
+59,CA-2016-114489,29-03-2024,JE-16165,Central,OFF-BI-10002735,Office Supplies,GBC Prestige Therm-A-Bind Covers,171.55,5,0,80.6285
+60,CA-2016-158834,30-03-2024,TW-21025,West,OFF-AP-10000326,Office Supplies,Belkin 7 Outlet SurgeMaster Surge Protector with Phone Protection,157.92,5,0.2,17.766
+61,CA-2016-158834,31-03-2024,TW-21025,West,TEC-PH-10001254,Technology,Jabra BIZ 2300 Duo QD Duo Corded Headset,203.184,2,0.2,15.2388
+62,CA-2015-124919,01-04-2024,SP-20650,West,OFF-PA-10001950,Office Supplies,Southworth 25% Cotton Antique Laid Paper & Envelopes,58.38,7,0,26.271
+63,CA-2015-124919,02-04-2024,SP-20650,West,OFF-PA-10002254,Office Supplies,Xerox 1883,105.52,4,0,48.5392
+64,CA-2015-124919,03-04-2024,SP-20650,West,OFF-ST-10001590,Office Supplies,"Tenex Personal Project File with Scoop Front Design, Black",80.88,6,0,21.0288
+65,CA-2015-118948,04-04-2024,NK-18490,West,OFF-AR-10001547,Office Supplies,Newell 311,6.63,3,0,1.7901
+66,CA-2014-104269,05-04-2024,DB-13060,West,FUR-CH-10004063,Furniture,Global Deluxe High-Back Manager's Chair,457.568,2,0.2,51.4764
+67,CA-2016-114104,06-04-2024,NP-18670,Central,OFF-LA-10002475,Office Supplies,Avery 519,14.62,2,0,6.8714
+68,CA-2016-114104,07-04-2024,NP-18670,Central,TEC-PH-10004536,Technology,Avaya 5420 Digital phone,944.93,7,0,236.2325
+69,CA-2016-162733,08-04-2024,TT-21070,West,OFF-PA-10002751,Office Supplies,Xerox 1920,5.98,1,0,2.691
+70,CA-2015-119697,09-04-2024,EM-13960,East,TEC-AC-10003657,Technology,Lenovo 17-Key USB Numeric Keypad,54.384,2,0.2,1.3596
+71,CA-2016-154508,10-04-2024,RD-19900,West,OFF-EN-10001990,Office Supplies,Staple envelope,28.4,5,0,13.348
+72,CA-2016-113817,11-04-2024,MJ-17740,West,OFF-BI-10004002,Office Supplies,Wilson Jones International Size A4 Ring Binders,27.68,2,0.2,9.688
+73,CA-2014-139892,12-04-2024,BM-11140,Central,OFF-AR-10004441,Office Supplies,BIC Brite Liner Highlighters,9.936,3,0.2,2.7324
+74,CA-2014-139892,13-04-2024,BM-11140,Central,TEC-MA-10000822,Technology,Lexmark MX611dhe Monochrome Laser Printer,8159.952,8,0.4,-1359.992
+75,CA-2014-139892,14-04-2024,BM-11140,Central,OFF-ST-10000991,Office Supplies,Space Solutions HD Industrial Steel Shelving.,275.928,3,0.2,-58.6347
+76,CA-2014-139892,15-04-2024,BM-11140,Central,FUR-CH-10004287,Furniture,SAFCO Arco Folding Chair,1740.06,9,0.3,-24.858
+77,CA-2014-139892,16-04-2024,BM-11140,Central,OFF-AR-10002656,Office Supplies,Sanford Liquid Accent Highlighters,32.064,6,0.2,6.8136
+78,CA-2014-139892,17-04-2024,BM-11140,Central,OFF-AP-10002518,Office Supplies,Kensington 7 Outlet MasterPiece Power Center,177.98,5,0.8,-453.849
+79,CA-2014-139892,18-04-2024,BM-11140,Central,TEC-PH-10003931,Technology,JBL Micro Wireless Portable Bluetooth Speaker,143.976,3,0.2,8.9985
+80,CA-2014-118962,19-04-2024,CS-12130,West,OFF-PA-10000659,Office Supplies,"Adams Phone Message Book, Professional, 400 Message Capacity, 5 3/6” x 11”",20.94,3,0,9.8418
+81,CA-2014-118962,20-04-2024,CS-12130,West,OFF-PA-10001144,Office Supplies,Xerox 1913,110.96,2,0,53.2608
+82,CA-2014-118962,21-04-2024,CS-12130,West,FUR-CH-10003817,Furniture,"Global Value Steno Chair, Gray",340.144,7,0.2,21.259
+83,US-2014-100853,22-04-2024,JB-15400,Central,OFF-AP-10000891,Office Supplies,Kensington 7 Outlet MasterPiece HOMEOFFICE Power Control Center,52.448,2,0.8,-131.12
+84,US-2014-100853,23-04-2024,JB-15400,Central,OFF-LA-10003148,Office Supplies,Avery 51,20.16,4,0.2,6.552
+85,US-2017-152366,24-04-2024,SJ-20500,Central,OFF-AP-10002684,Office Supplies,"Acco 7-Outlet Masterpiece Power Center, Wihtout Fax/Phone Line Protection",97.264,4,0.8,-243.16
+86,US-2015-101511,25-04-2024,JE-15745,East,FUR-CH-10004698,Furniture,"Padded Folding Chairs, Black, 4/Carton",396.802,7,0.3,-11.3372
+87,US-2015-101511,26-04-2024,JE-15745,East,OFF-SU-10002189,Office Supplies,Acme Rosewood Handle Letter Opener,15.88,5,0.2,-3.7715
+88,CA-2015-137225,27-04-2024,JK-15640,East,OFF-AR-10001940,Office Supplies,"Sanford Colorific Eraseable Coloring Pencils, 12 Count",3.28,1,0,1.4104
+89,CA-2014-166191,28-04-2024,DK-13150,Central,OFF-ST-10003455,Office Supplies,"Tenex File Box, Personal Filing Tote with Lid, Black",24.816,2,0.2,1.8612
+90,CA-2014-166191,29-04-2024,DK-13150,Central,TEC-AC-10004659,Technology,Imation Secure+ Hardware Encrypted USB 2.0 Flash Drive; 16GB,408.744,7,0.2,76.6395
+91,CA-2014-158274,30-04-2024,RM-19675,South,TEC-PH-10003273,Technology,AT&T TR1909W,503.96,4,0,131.0296
+92,CA-2014-158274,01-05-2024,RM-19675,South,TEC-PH-10004896,Technology,Nokia Lumia 521 (T-Mobile),149.95,5,0,41.986
+93,CA-2014-158274,02-05-2024,RM-19675,South,TEC-AC-10002345,Technology,HP Standard 104 key PS/2 Keyboard,29,2,0,7.25
+94,CA-2016-105018,03-05-2024,SK-19990,East,OFF-BI-10001890,Office Supplies,Avery Poly Binder Pockets,7.16,2,0,3.4368
+95,CA-2014-123260,04-05-2024,FM-14290,West,TEC-AC-10002323,Technology,SanDisk Ultra 32 GB MicroSDHC Class 10 Memory Card,176.8,8,0,22.984
+96,CA-2016-157000,05-05-2024,AM-10360,Central,OFF-ST-10001328,Office Supplies,"Personal Filing Tote with Lid, Black/Gray",37.224,3,0.2,3.7224
+97,CA-2016-157000,06-05-2024,AM-10360,Central,OFF-PA-10001950,Office Supplies,Southworth 25% Cotton Antique Laid Paper & Envelopes,20.016,3,0.2,6.255
+98,CA-2015-102281,07-05-2024,MP-17470,East,FUR-BO-10002613,Furniture,"Atlantic Metals Mobile 4-Shelf Bookcases, Custom Colors",899.136,4,0.2,112.392
+99,CA-2015-102281,08-05-2024,MP-17470,East,TEC-PH-10001552,Technology,I Need's 3d Hello Kitty Hybrid Silicone Case Cover for HTC One X 4g with 3d Hello Kitty Stylus Pen Green/pink,71.76,6,0,20.0928
+100,CA-2015-102281,09-05-2024,MP-17470,East,OFF-PA-10000061,Office Supplies,Xerox 205,51.84,8,0,24.8832
+101,CA-2015-102281,10-05-2024,MP-17470,East,FUR-BO-10002545,Furniture,"Atlantic Metals Mobile 3-Shelf Bookcases, Custom Colors",626.352,3,0.2,46.9764
+102,CA-2015-102281,11-05-2024,MP-17470,East,OFF-AR-10003514,Office Supplies,4009 Highlighters by Sanford,19.9,5,0,6.567
+103,CA-2015-131457,12-05-2024,MZ-17515,West,OFF-EN-10001509,Office Supplies,Poly String Tie Envelopes,14.28,7,0,6.7116
+104,CA-2014-140004,13-05-2024,CB-12025,East,OFF-AR-10004685,Office Supplies,"Binney & Smith Crayola Metallic Colored Pencils, 8-Color Set",7.408,2,0.2,1.2038
+105,CA-2014-140004,14-05-2024,CB-12025,East,OFF-AR-10004027,Office Supplies,"Binney & Smith inkTank Erasable Desk Highlighter, Chisel Tip, Yellow, 12/Box",6.048,3,0.2,1.5876
+106,CA-2017-107720,15-05-2024,VM-21685,East,OFF-ST-10001414,Office Supplies,Decoflex Hanging Personal Folder File,46.26,3,0,12.0276
+107,US-2017-124303,16-05-2024,FH-14365,East,OFF-BI-10000343,Office Supplies,"Pressboard Covers with Storage Hooks, 9 1/2"" x 11"", Light Blue",2.946,2,0.7,-2.2586
+108,US-2017-124303,17-05-2024,FH-14365,East,OFF-PA-10002749,Office Supplies,"Wirebound Message Books, 5-1/2 x 4 Forms, 2 or 4 Forms per Page",16.056,3,0.2,5.8203
+109,CA-2017-105074,18-05-2024,MB-17305,East,OFF-PA-10002666,Office Supplies,Southworth 25% Cotton Linen-Finish Paper & Envelopes,21.744,3,0.2,6.795
+110,CA-2014-133690,19-05-2024,BS-11755,West,FUR-TA-10004289,Furniture,BoxOffice By Design Rectangular and Half-Moon Meeting Room Tables,218.75,2,0.5,-161.875
+111,CA-2014-133690,20-05-2024,BS-11755,West,OFF-AP-10003622,Office Supplies,"Bravo II Megaboss 12-Amp Hard Body Upright, Replacement Belts, 2 Belts per Pack",2.6,1,0.2,0.2925
+112,US-2017-116701,21-05-2024,LC-17140,Central,OFF-AP-10003217,Office Supplies,Eureka Sanitaire  Commercial Upright,66.284,2,0.8,-178.9668
+113,CA-2017-126382,22-05-2024,HK-14890,South,FUR-FU-10002960,Furniture,"Eldon 200 Class Desk Accessories, Burgundy",35.168,7,0.2,9.6712
+114,CA-2017-108329,23-05-2024,LE-16810,West,TEC-PH-10001918,Technology,Nortel Business Series Terminal T7208 Digital phone,444.768,4,0.2,44.4768
+115,CA-2017-135860,24-05-2024,JH-15985,Central,OFF-ST-10000642,Office Supplies,"Tennsco Lockers, Gray",83.92,4,0,5.8744
+116,CA-2017-135860,25-05-2024,JH-15985,Central,TEC-PH-10001700,Technology,Panasonic KX-TG6844B Expandable Digital Cordless Telephone,131.98,2,0,35.6346
+117,CA-2017-135860,26-05-2024,JH-15985,Central,OFF-BI-10003274,Office Supplies,"Avery Durable Slant Ring Binders, No Labels",15.92,4,0,7.4824
+118,CA-2017-135860,27-05-2024,JH-15985,Central,OFF-FA-10000134,Office Supplies,"Advantus Push Pins, Aluminum Head",52.29,9,0,16.2099
+119,CA-2017-135860,28-05-2024,JH-15985,Central,OFF-ST-10001522,Office Supplies,"Gould Plastics 18-Pocket Panel Bin, 34w x 5-1/4d x 20-1/2h",91.99,1,0,3.6796
+120,CA-2015-101007,29-05-2024,MS-17980,Central,TEC-AC-10001266,Technology,Memorex Micro Travel Drive 8 GB,20.8,2,0.2,6.5
+121,CA-2015-146262,30-05-2024,VW-21775,East,OFF-LA-10004544,Office Supplies,Avery 505,23.68,2,0.2,8.88
+122,CA-2015-146262,31-05-2024,VW-21775,East,FUR-BO-10004695,Furniture,O'Sullivan 2-Door Barrister Bookcase in Odessa Pine,452.45,5,0.5,-244.323
+123,CA-2015-146262,01-06-2024,VW-21775,East,TEC-PH-10002844,Technology,Speck Products Candyshell Flip Case,62.982,3,0.4,-14.6958
+124,CA-2015-146262,02-06-2024,VW-21775,East,TEC-MA-10000864,Technology,Cisco 9971 IP Video Phone Charcoal,1188,9,0.7,-950.4
+125,CA-2015-146262,03-06-2024,VW-21775,East,TEC-AC-10000109,Technology,Sony Micro Vault Click 16 GB USB 2.0 Flash Drive,89.584,2,0.2,4.4792
+126,CA-2016-130162,04-06-2024,JH-15910,West,OFF-ST-10001328,Office Supplies,"Personal Filing Tote with Lid, Black/Gray",93.06,6,0,26.0568
+127,CA-2016-130162,05-06-2024,JH-15910,West,TEC-PH-10002563,Technology,Adtran 1202752G1,302.376,3,0.2,22.6782
+128,CA-2015-169397,06-06-2024,JB-15925,East,OFF-FA-10000585,Office Supplies,OIC Bulk Pack Metal Binder Clips,5.584,2,0.2,1.8148
+129,CA-2015-169397,07-06-2024,JB-15925,East,OFF-PA-10004000,Office Supplies,"While You Were Out Pads, 50 per Pad, 4 x 5 1/4, Green Cycle",22.704,6,0.2,8.2302
+130,CA-2015-169397,08-06-2024,JB-15925,East,OFF-BI-10002852,Office Supplies,Ibico Standard Transparent Covers,19.776,4,0.7,-13.8432
+131,CA-2015-169397,09-06-2024,JB-15925,East,FUR-FU-10000087,Furniture,"Executive Impressions 14"" Two-Color Numerals Wall Clock",72.704,4,0.2,19.0848
+132,CA-2015-169397,10-06-2024,JB-15925,East,TEC-MA-10001148,Technology,Swingline SM12-08 MicroCut Jam Free Shredder,479.988,4,0.7,-383.9904
+133,CA-2015-169397,11-06-2024,JB-15925,East,OFF-AR-10001958,Office Supplies,Stanley Bostitch Contemporary Electric Pencil Sharpeners,27.168,2,0.2,2.7168
+134,CA-2015-163055,12-06-2024,DS-13180,Central,OFF-AR-10001026,Office Supplies,"Sanford Uni-Blazer View Highlighters, Chisel Tip, Yellow",2.2,1,0,0.968
+135,CA-2015-163055,13-06-2024,DS-13180,Central,FUR-TA-10003748,Furniture,Bevis 36 x 72 Conference Tables,622.45,5,0,136.939
+136,CA-2015-163055,14-06-2024,DS-13180,Central,OFF-ST-10002485,Office Supplies,Rogers Deluxe File Chest,21.98,1,0,0.2198
+137,US-2015-145436,15-06-2024,VD-21670,South,FUR-CH-10004860,Furniture,Global Low Back Tilter Chair,161.568,2,0.2,-28.2744
+138,US-2015-145436,16-06-2024,VD-21670,South,FUR-CH-10004477,Furniture,"Global Push Button Manager's Chair, Indigo",389.696,8,0.2,43.8408
+139,US-2014-156216,17-06-2024,EA-14035,South,OFF-BI-10001679,Office Supplies,GBC Instant Index System for Binding Systems,18.648,7,0.7,-12.432
+140,US-2017-100930,18-06-2024,CS-12400,South,FUR-TA-10001705,Furniture,Bush Advantage Collection Round Conference Table,233.86,2,0.45,-102.048
+141,US-2017-100930,19-06-2024,CS-12400,South,FUR-TA-10003473,Furniture,Bretford Rectangular Conference Table Tops,620.6145,3,0.45,-248.2458
+142,US-2017-100930,20-06-2024,CS-12400,South,OFF-BI-10001679,Office Supplies,GBC Instant Index System for Binding Systems,5.328,2,0.7,-3.552
+143,US-2017-100930,21-06-2024,CS-12400,South,FUR-FU-10004017,Furniture,"Tenex Contemporary Contur Chairmats for Low and Medium Pile Carpet, Computer, 39"" x 49""",258.072,3,0.2,0
+144,US-2017-100930,22-06-2024,CS-12400,South,TEC-AC-10003832,Technology,Logitech P710e Mobile Speakerphone,617.976,3,0.2,-7.7247
+145,CA-2017-160514,23-06-2024,DB-13120,West,OFF-PA-10002479,Office Supplies,Xerox 4200 Series MultiUse Premium Copy Paper (20Lb. and 84 Bright),10.56,2,0,4.752
+146,CA-2016-157749,24-06-2024,KL-16645,Central,OFF-PA-10003349,Office Supplies,Xerox 1957,25.92,5,0.2,9.396
+147,CA-2016-157749,25-06-2024,KL-16645,Central,FUR-FU-10000576,Furniture,Luxo Professional Fluorescent Magnifier Lamp with Clamp-Mount Base,419.68,5,0.6,-356.728
+148,CA-2016-157749,26-06-2024,KL-16645,Central,FUR-FU-10004351,Furniture,Staple-based wall hangings,11.688,3,0.6,-4.6752
+149,CA-2016-157749,27-06-2024,KL-16645,Central,TEC-PH-10000011,Technology,PureGear Roll-On Screen Protector,31.984,2,0.2,11.1944
+150,CA-2016-157749,28-06-2024,KL-16645,Central,FUR-TA-10002607,Furniture,KI Conference Tables,177.225,5,0.5,-120.513
+151,CA-2016-157749,29-06-2024,KL-16645,Central,FUR-FU-10002505,Furniture,Eldon 100 Class Desk Accessories,4.044,3,0.6,-2.8308
+152,CA-2016-157749,30-06-2024,KL-16645,Central,OFF-AR-10004685,Office Supplies,"Binney & Smith Crayola Metallic Colored Pencils, 8-Color Set",7.408,2,0.2,1.2038
+153,CA-2014-131926,01-07-2024,DW-13480,Central,FUR-CH-10004063,Furniture,Global Deluxe High-Back Manager's Chair,2001.86,7,0,580.5394
+154,CA-2014-131926,02-07-2024,DW-13480,Central,OFF-ST-10002276,Office Supplies,Safco Steel Mobile File Cart,166.72,2,0,41.68
+155,CA-2014-131926,03-07-2024,DW-13480,Central,OFF-PA-10004082,Office Supplies,"Adams Telephone Message Book w/Frequently-Called Numbers Space, 400 Messages per Book",47.88,6,0,23.94
+156,CA-2014-131926,04-07-2024,DW-13480,Central,OFF-AP-10002945,Office Supplies,Honeywell Enviracaire Portable HEPA Air Cleaner for 17' x 22' Room,1503.25,5,0,496.0725
+157,CA-2014-131926,05-07-2024,DW-13480,Central,OFF-PA-10000061,Office Supplies,Xerox 205,25.92,4,0,12.4416
+158,CA-2016-154739,06-07-2024,LH-17155,West,FUR-CH-10002965,Furniture,"Global Leather Highback Executive Chair with Pneumatic Height Adjustment, Black",321.568,2,0.2,28.1372
+159,CA-2016-145625,07-07-2024,KC-16540,West,OFF-PA-10004569,Office Supplies,"Wirebound Message Books, Two 4 1/4"" x 5"" Forms per Page",7.61,1,0,3.5767
+160,CA-2016-145625,08-07-2024,KC-16540,West,TEC-AC-10003832,Technology,Logitech P710e Mobile Speakerphone,3347.37,13,0,636.0003
+161,CA-2016-146941,09-07-2024,DL-13315,East,OFF-ST-10001228,Office Supplies,"Fellowes Personal Hanging Folder Files, Navy",80.58,6,0,22.5624
+162,CA-2016-146941,10-07-2024,DL-13315,East,OFF-EN-10003296,Office Supplies,Tyvek Side-Opening Peel & Seel Expanding Envelopes,361.92,4,0,162.864
+163,US-2015-159982,11-07-2024,DR-12880,Central,FUR-FU-10002505,Furniture,Eldon 100 Class Desk Accessories,12.132,9,0.6,-8.4924
+164,US-2015-159982,12-07-2024,DR-12880,Central,OFF-ST-10004804,Office Supplies,"Belkin 19"" Vented Equipment Shelf, Black",82.368,2,0.2,-19.5624
+165,US-2015-159982,13-07-2024,DR-12880,Central,OFF-ST-10001590,Office Supplies,"Tenex Personal Project File with Scoop Front Design, Black",53.92,5,0.2,4.044
+166,US-2015-159982,14-07-2024,DR-12880,Central,TEC-PH-10001580,Technology,Logitech Mobile Speakerphone P710e - speaker phone,647.904,6,0.2,56.6916
+167,CA-2017-163139,15-07-2024,CC-12670,East,TEC-AC-10000290,Technology,Sabrent 4-Port USB 2.0 Hub,20.37,3,0,6.9258
+168,CA-2017-163139,16-07-2024,CC-12670,East,OFF-ST-10002790,Office Supplies,Safco Industrial Shelving,221.55,3,0,6.6465
+169,CA-2017-163139,17-07-2024,CC-12670,East,OFF-BI-10003460,Office Supplies,Acco 3-Hole Punch,17.52,5,0.2,6.132
+170,US-2017-155299,18-07-2024,Dl-13600,Central,OFF-AP-10002203,Office Supplies,Eureka Disposable Bags for Sanitaire Vibra Groomer I Upright Vac,1.624,2,0.8,-4.466
+171,US-2014-106992,19-07-2024,SB-20290,Central,TEC-MA-10000822,Technology,Lexmark MX611dhe Monochrome Laser Printer,3059.982,3,0.4,-509.997
+172,US-2014-106992,20-07-2024,SB-20290,Central,TEC-MA-10003353,Technology,Xerox WorkCentre 6505DN Laser Multifunction Printer,2519.958,7,0.4,-251.9958
+173,CA-2016-125318,21-07-2024,RC-19825,Central,TEC-PH-10001433,Technology,Cisco Small Business SPA 502G VoIP phone,328.224,4,0.2,28.7196
+174,CA-2015-155040,22-07-2024,AH-10210,West,TEC-AC-10004469,Technology,Microsoft Sculpt Comfort Mouse,79.9,2,0,35.156
+175,CA-2017-136826,23-07-2024,CB-12535,South,OFF-AR-10003602,Office Supplies,"Quartet Omega Colored Chalk, 12/Pack",14.016,3,0.2,4.7304
+176,CA-2016-111010,24-07-2024,PG-18895,East,OFF-FA-10003472,Office Supplies,Bagged Rubber Bands,7.56,6,0,0.3024
+177,US-2017-145366,25-07-2024,CA-12310,East,OFF-ST-10004180,Office Supplies,Safco Commercial Shelving,37.208,1,0.2,-7.4416
+178,US-2017-145366,26-07-2024,CA-12310,East,OFF-EN-10004386,Office Supplies,"Recycled Interoffice Envelopes with String and Button Closure, 10 x 13",57.576,3,0.2,21.591
+179,CA-2017-163979,27-07-2024,KH-16690,West,OFF-ST-10003208,Office Supplies,Adjustable Depth Letter/Legal Cart,725.84,4,0,210.4936
+180,CA-2015-155334,28-07-2024,HA-14920,West,TEC-AC-10003628,Technology,Logitech 910-002974 M325 Wireless Mouse for Web Scrolling,209.93,7,0,92.3692
+181,CA-2015-155334,29-07-2024,HA-14920,West,FUR-FU-10003274,Furniture,Regeneration Desk Collection,5.28,3,0,2.3232
+182,CA-2015-155334,30-07-2024,HA-14920,West,OFF-BI-10002557,Office Supplies,Presstex Flexible Ring Binders,10.92,3,0.2,4.095
+183,CA-2017-118136,31-07-2024,BB-10990,West,OFF-PA-10002615,Office Supplies,"Ampad Gold Fibre Wirebound Steno Books, 6"" x 9"", Gregg Ruled",8.82,2,0,4.0572
+184,CA-2017-118136,01-08-2024,BB-10990,West,OFF-AR-10001427,Office Supplies,Newell 330,5.98,1,0,1.5548
+185,CA-2017-132976,02-08-2024,AG-10495,East,OFF-PA-10000673,Office Supplies,"Post-it “Important Message” Note Pad, Neon Colors, 50 Sheets/Pad",11.648,2,0.2,4.0768
+186,CA-2017-132976,03-08-2024,AG-10495,East,OFF-PA-10004470,Office Supplies,"Adams Write n' Stick Phone Message Book, 11"" X 5 1/4"", 200 Messages",18.176,4,0.2,5.9072
+187,CA-2017-132976,04-08-2024,AG-10495,East,OFF-ST-10000876,Office Supplies,Eldon Simplefile Box Office,59.712,6,0.2,5.9712
+188,CA-2017-132976,05-08-2024,AG-10495,East,OFF-LA-10002043,Office Supplies,Avery 489,24.84,3,0.2,8.694
+189,US-2015-161991,06-08-2024,SC-20725,Central,OFF-BI-10004967,Office Supplies,Round Ring Binders,2.08,5,0.8,-3.432
+190,US-2015-161991,07-08-2024,SC-20725,Central,TEC-PH-10001760,Technology,Bose SoundLink Bluetooth Speaker,1114.4,7,0.2,376.11
+191,CA-2015-130890,08-08-2024,JO-15280,West,FUR-TA-10002903,Furniture,"Bevis Round Bullnose 29"" High Table Top",1038.84,5,0.2,51.942
+192,CA-2015-130883,09-08-2024,TB-21520,West,OFF-PA-10000474,Office Supplies,Easy-staple paper,141.76,5,0.2,47.844
+193,CA-2015-130883,10-08-2024,TB-21520,West,TEC-AC-10001956,Technology,Microsoft Arc Touch Mouse,239.8,5,0.2,47.96
+194,CA-2015-130883,11-08-2024,TB-21520,West,OFF-PA-10004100,Office Supplies,Xerox 216,31.104,6,0.2,10.8864
+195,CA-2016-112697,12-08-2024,AH-10195,South,OFF-BI-10000778,Office Supplies,GBC VeloBinder Electric Binding Machine,254.058,7,0.7,-169.372
+196,CA-2016-112697,13-08-2024,AH-10195,South,OFF-AP-10002684,Office Supplies,"Acco 7-Outlet Masterpiece Power Center, Wihtout Fax/Phone Line Protection",194.528,2,0.2,24.316
+197,CA-2016-112697,14-08-2024,AH-10195,South,OFF-SU-10000646,Office Supplies,Premier Automatic Letter Opener,961.48,5,0.2,-204.3145
+198,CA-2016-110772,15-08-2024,NZ-18565,East,OFF-FA-10002983,Office Supplies,Advantus SlideClip Paper Clips,19.096,7,0.2,6.6836
+199,CA-2016-110772,16-08-2024,NZ-18565,East,OFF-LA-10004689,Office Supplies,Avery 512,18.496,8,0.2,6.2424
+200,CA-2016-110772,17-08-2024,NZ-18565,East,TEC-AC-10002001,Technology,Logitech Wireless Gaming Headset G930,255.984,2,0.2,54.3966
+201,CA-2016-110772,18-08-2024,NZ-18565,East,FUR-BO-10004709,Furniture,"Bush Westfield Collection Bookcases, Medium Cherry Finish",86.97,3,0.5,-48.7032
+202,CA-2014-111451,19-08-2024,KL-16555,West,FUR-FU-10004091,Furniture,"Howard Miller 13"" Diameter Goldtone Round Wall Clock",300.416,8,0.2,78.8592
+203,CA-2014-111451,20-08-2024,KL-16555,West,FUR-CH-10001891,Furniture,Global Deluxe Office Fabric Chairs,230.352,3,0.2,20.1558
+204,CA-2014-111451,21-08-2024,KL-16555,West,FUR-FU-10002918,Furniture,Eldon ClusterMat Chair Mat with Cordless Antistatic Protection,218.352,3,0.2,-24.5646
+205,CA-2014-111451,22-08-2024,KL-16555,West,OFF-BI-10004593,Office Supplies,Ibico Laser Imprintable Binding System Covers,78.6,5,0.7,-62.88
+206,CA-2014-111451,23-08-2024,KL-16555,West,OFF-FA-10004854,Office Supplies,"Vinyl Coated Wire Paper Clips in Organizer Box, 800/Box",27.552,3,0.2,9.2988
+,,,,,,,,,,,
+,,,,,,,,,,,
